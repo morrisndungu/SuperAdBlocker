@@ -6,8 +6,10 @@
   "permissions": [
     "scripting",
     "webRequest",
-    "blocking",
-    "activeTab"
+    "webRequestBlocking",
+    "activeTab",
+    "declarativeNetRequest",
+    "<all_urls>"
   ],
   "host_permissions": [
     "<all_urls>"
